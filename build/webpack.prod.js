@@ -12,28 +12,31 @@ module.exports = webpackMerge(commonConfig, {
         filename: 'scripts/[name]_[chunkhash:8].js'
     },
     module: {
-        rules: [{
-            test: /\.vue$/,
-            use: [
-                {
-                    loader: 'vue-loader',
-                    options: {
-                        extractCSS: true,
-                        loaders: {
-                            js: 'babel-loader?presets[]=env'
+        rules: [
+            {
+                test: /\.vue$/,
+                use: [
+                    {
+                        loader: 'vue-loader',
+                        options: {
+                            extractCSS: true,
+                            loaders: {
+                                js: 'babel-loader?presets[]=env'
+                            }
                         }
                     }
-                }
-            ]
-        }, {
-            test: /\.css$/,
-            use: ExtractTextPlugin.extract([{
-                loader: 'css-loader',
-                options: {
-                    minimize: true
-                }
-            }])
-        }]
+                ]
+            },
+            {
+                test: /\.css$/,
+                use: ExtractTextPlugin.extract([{
+                    loader: 'css-loader',
+                    options: {
+                        minimize: true
+                    }
+                }])
+            }
+        ]
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
@@ -50,11 +53,11 @@ module.exports = webpackMerge(commonConfig, {
         }),
         new CleanWebpackPlugin(['dist'], {
             root: path.join(__dirname, '../')
-        }),
-        new ExtractTextPlugin('styles/[name]_[contenthash:8].css')
+        })
     ],
     devServer: {
         host: '0.0.0.0',
+        port: 8000,
         disableHostCheck: true
     }
 })
