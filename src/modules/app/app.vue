@@ -1,15 +1,15 @@
 <template>
     <div>
-        <nav></nav>
+        <el-nav></el-nav>
         <router-view></router-view>
     </div>
 </template>
 <script>
-    import nav from '../../components/nav'
+    import ElNav from '../../components/nav'
 
     export default {
         components: {
-            nav
+            ElNav
         }
     }
 </script>

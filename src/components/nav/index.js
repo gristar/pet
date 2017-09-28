@@ -1,1 +1,1 @@
-export {default} from 'nav.vue'
+export {default} from './nav.vue'
