@@ -1,0 +1,27 @@
+body {
+    font-size: 12px;
+}
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        width: 980px;
+    }
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.icon {
+    display: inline-block;
+    background-image: url('../../asset/img/icons.png');
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}

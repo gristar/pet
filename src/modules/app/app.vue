@@ -5,7 +5,8 @@
     </div>
 </template>
 <script>
-    import reset from '../../styles/reset.css'
+    import resetStyle from '../../styles/reset.css'
+    import commonStyle from '../../styles/common.css'
     import ElNav from '../../components/nav/mainTopNav.vue'
 
     export default {
