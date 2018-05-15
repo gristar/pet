@@ -207,7 +207,7 @@
         height: 100%;
         display: block;
         text-align: center;
-        color: #fff;
+        color: #222;
     }
     .nav-menu ul li:hover {
         background-color: hsla(0, 0%, 100%, .3);

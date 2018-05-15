@@ -12,6 +12,9 @@
     export default {
         components: {
             ElNav
+        },
+        mounted() {
+            console.log('app mounted');
         }
     }
 </script>

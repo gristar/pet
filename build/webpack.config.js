@@ -6,7 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const entry = {
     'index': './src/scripts/index'
-}
+};
 
 let htmlPlugin = [];
 Object.keys(entry).forEach(function (item) {
@@ -58,4 +58,4 @@ module.exports = {
         }),
         new ExtractTextPlugin('styles/[name]_[contenthash:8].css')
     ].concat(htmlPlugin)
-}
+};
