@@ -1,6 +1,9 @@
 body {
     font-size: 12px;
 }
+a:hover {
+    color: #00a1d6;
+}
 .wrapper {
     width: 1160px;
     margin: 0 auto;
@@ -8,6 +11,10 @@ body {
 .wrapper .left-con {
     float: left;
     width: 900px;
+}
+.wrapper .right-con {
+    float: right;
+    width: 260px;
 }
 .items-wrapper {
     padding-bottom: 15px;

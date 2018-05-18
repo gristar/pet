@@ -90,6 +90,9 @@
     </div>
 </template>
 <style>
+    .first-content {
+        padding-bottom: 40px;
+    }
     .swiper-container {
         width: 440px;
         height: 220px;
