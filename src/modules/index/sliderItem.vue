@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="first-content">
-            <div class="swiper-container">
+            <div class="index-swiper swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="">
@@ -185,7 +185,7 @@
 
     export default {
         mounted() {
-            let mySwiper = new Swiper ('.swiper-container', {
+            let mySwiper = new Swiper ('.index-swiper', {
                 // Optional parameters
                 direction: 'horizontal',
                 loop: true,

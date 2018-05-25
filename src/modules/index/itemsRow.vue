@@ -130,12 +130,7 @@
                 </div>
             </div>
             <div class="right-con">
-                <div class="tab">
-                    <div class="tab-item">直播排行</div>
-                    <div class="tab-item">关注的主播</div>
-                    <div class="tab-item on">为你推荐</div>
-                </div>
-
+                <tab></tab>
             </div>
         </div>
     </div>
@@ -396,3 +391,11 @@
         transition-property: border,color;
     }
 </style>
+<script>
+    import Tab from './tab.vue';
+    export default {
+        components: {
+            Tab
+        }
+    }
+</script>
