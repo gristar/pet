@@ -127,6 +127,34 @@
                             <p class="num">娱乐 · 视频唱见</p>
                         </a>
                     </div>
+                    <div class="box-item">
+                        <a href="">
+                            <div class="pic">
+                                <div class="lazy-img"><img src="../../../asset/img/cover1.png@160w_100h.png" alt=""></div>
+                                <div class="snum">
+                                    <span class="author">皮皮味の猫娘</span>
+                                    <span class="online"><i></i>1750</span>
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                            <p class="title">唱的好看长的好听ლ(╹ε╹ლ)</p>
+                            <p class="num">娱乐 · 视频唱见</p>
+                        </a>
+                    </div>
+                    <div class="box-item">
+                        <a href="">
+                            <div class="pic">
+                                <div class="lazy-img"><img src="../../../asset/img/cover1.png@160w_100h.png" alt=""></div>
+                                <div class="snum">
+                                    <span class="author">皮皮味の猫娘</span>
+                                    <span class="online"><i></i>1750</span>
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                            <p class="title">唱的好看长的好听ლ(╹ε╹ლ)</p>
+                            <p class="num">娱乐 · 视频唱见</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="right-con">
