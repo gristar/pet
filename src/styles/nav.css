@@ -1,0 +1,78 @@
+.head-banner {
+    position: relative;
+    z-index: 199;
+    height: 170px;
+    margin-top: -42px;
+    background: #eee;
+    background-position: center -10px;
+    background-repeat: no-repeat;
+}
+
+.search {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 268px;
+    height: 32px;
+    padding: 2px 2px 2px 72px;
+    background-color: #e5e9ef;
+    background-color: rgba(0,0,0,.12);
+    border-radius: 6px;
+    font-size: 12px;
+    z-index: 10;
+}
+
+.search .searchform {
+    background-color: #fff;
+    background-color: hsla(0,0%,100%,.88);
+    display: block;
+    height: 32px;
+    border-radius: 4px;
+    -webkit-transition: background-color .2s;
+    -o-transition: .2s background-color;
+    transition: background-color .2s;
+}
+
+.search .search-keyword {
+    float: left;
+    width: 200px;
+    color: #222;
+    font-size: 12px;
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.search button.search-submit {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 48px;
+    min-width: 0;
+    cursor: pointer;
+    height: 32px;
+    background: url(//static.hdslb.com/images/base/icons.png) -653px -720px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.search .link-ranking {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fff;
+    background-color: hsla(0,0%,100%,.88);
+    border-radius: 4px;
+    width: 68px;
+    -webkit-transition: background-color .2s;
+    -o-transition: .2s background-color;
+    transition: background-color .2s;
+}

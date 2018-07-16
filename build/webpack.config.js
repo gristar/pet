@@ -49,6 +49,11 @@ module.exports = {
             }
         ]
     },
+    resolve: {
+        alias: {
+            'styles': path.join(__dirname, 'src/styles/'),
+        }
+    },
     plugins: [
         new webpack.DefinePlugin({
             LIBDIR: JSON.stringify('lib')
